@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=38:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=30:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -112,8 +112,9 @@ float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
+	//"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#1d2021",
+    "#cc241d",
 	"#98971a",
 	"#d79921",
 	"#458588",
